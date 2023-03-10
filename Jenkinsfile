@@ -40,7 +40,7 @@
 
 env.abc = "Happy New year"
 test.new1()
-test.fruits()
+
 
 // pipeline {
 //     agent any
