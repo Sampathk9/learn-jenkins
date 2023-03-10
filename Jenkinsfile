@@ -51,13 +51,15 @@ pipeline {
             print "abc= ${abc}"
             print "xyz = ${xyz}"
 
-            print abc
+            echo "Printing abc and xyz"
 
         }
 
         script {
 
                  print "xyz = ${xyz}"
+
+                 echo "Printing xyz only"
 
            }
 
