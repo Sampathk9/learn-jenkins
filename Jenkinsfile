@@ -39,7 +39,7 @@
 @Library('roboshop') _
 
 env.abc = "Happy New year"
-test.new()
+test.new1()
 
 // pipeline {
 //     agent any
