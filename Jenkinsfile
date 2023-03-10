@@ -46,7 +46,7 @@ pipeline {
            script {
 
             env.abc =  "Hello"
-            def xyz = 10
+            env.xyz = 10
 
             print "abc= ${abc}"
             print "xyz = ${xyz}"
