@@ -55,6 +55,12 @@ pipeline {
 
         }
 
+        script {
+
+                 print "xyz = ${xyz}"
+
+           }
+
       }
 
 
