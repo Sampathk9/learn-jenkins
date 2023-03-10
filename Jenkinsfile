@@ -38,37 +38,40 @@
 
 @Library('roboshop') _
 
-pipeline {
-    agent any
-    stages {
-      stage ('test') {
-        steps {
-           script {
+env.abc = "Happy New year"
+test.new()
 
-            env.abc =  "Hello"
-            env.xyz = 10
-
-            print "abc= ${abc}"
-            print "xyz = ${xyz}"
-
-            echo "Printing abc and xyz"
-
-        }
-
-        script {
-
-                 print "xyz = ${xyz}"
-
-                 echo "Printing xyz only"
-
-           }
-
-      }
-
-
-
-   }
-
- }
-
-}
+// pipeline {
+//     agent any
+//     stages {
+//       stage ('test') {
+//         steps {
+//            script {
+//
+//             env.abc =  "Hello"
+//             env.xyz = 10
+//
+//             print "abc= ${abc}"
+//             print "xyz = ${xyz}"
+//
+//             echo "Printing abc and xyz"
+//
+//         }
+//
+//         script {
+//
+//                  print "xyz = ${xyz}"
+//
+//                  echo "Printing xyz only"
+//
+//            }
+//
+//       }
+//
+//
+//
+//    }
+//
+//  }
+//
+// }
