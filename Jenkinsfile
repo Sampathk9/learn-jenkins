@@ -40,14 +40,25 @@
 
 pipeline {
     agent any
-
     stages {
       stage ('test') {
         steps {
+           script {
 
-            test()
+            env.abc =  "Hello"
+            def xyz = 10
+
+            print "abc= ${abc}"
+            print "xyz = ${xyz}"
+
+            print abc
 
         }
+
+      }
+
+
+
    }
 
  }
